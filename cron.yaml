@@ -1,0 +1,4 @@
+cron:
+- description: scrobble
+  url: /scrobble
+  schedule: every 1 minutes
