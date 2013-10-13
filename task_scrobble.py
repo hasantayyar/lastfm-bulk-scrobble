@@ -8,8 +8,8 @@ import imp
 from random import choice
 
 
-pylast = imp.load_source('pylast', 'pylast.py')
-songs = imp.load_source('songs', 'songs.py')
+pylast = imp.load_source('pylast', 'libs/pylast.py')
+songs = imp.load_source('songs', 'libs/songs.py')
 
 API_KEY = "55a3efd55018c6023197280946f578a2";
 API_SECRET = "1a9530bd9d522eef14e40d47a00024cf"

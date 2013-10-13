@@ -9,7 +9,7 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 - url: /scrobble
-  script: scrobble.py
+  script: task_scrobble.py
 
 - url: .*
   script: main.app
